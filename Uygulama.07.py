@@ -41,7 +41,7 @@ class fotoAlbum:
             self.FotoGoster(fotoIndexno)
 
     def fotoGoster (self, fotoIndex):
-        listeFoto = ["IMG_2268.jpg", "IMG_2241.jpg", "IMG_2113.jpg"]
+        listeFoto = ["IMG_2268.JPG", "IMG_2241.JPG", "IMG_2113.JPG"]
 
         global listeUzunluk
         listeUzunluk = len(listeFoto)
