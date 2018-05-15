@@ -25,10 +25,10 @@ class SimonGame:
 
         self.best = 0
         self.best_label = self.place_label(175, 35, "Best:")
-        self.best_val = self.place_label(208, 35, self.best)
+        self.best_val = self.place_label(210, 35, self.best)
 
         self.start = tkinter.Button(self.base, bd="0", text="Start and Level up!", command=self.show_sequence)
-        self.start.place(x=125, y=35)
+        self.start.place(x=88, y=30)
 
         self.sequence = []
         self.user_sequence = []
